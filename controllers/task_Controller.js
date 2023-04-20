@@ -22,3 +22,17 @@ module.exports.task = async function(req,res){
 
 }
 }
+
+//deleting a task
+
+module.exports.delete=function (req,res){
+    Task.findById(req.params.id,function (err,task){
+        if (err){
+            console.log('server error in deleting',err)
+            return res.status(500).json({message:'internal server error soon we will fix'})
+        }
+        task.remove();
+        return res.status(200).json({message:'Task deleted '})
+    })
+}
+
