@@ -7,6 +7,7 @@ const index_controller=require('../controllers/index_Controller')
 
 router.get('/',index_controller.home);
 router.use('/users',require('./user'));
+router.use('/tasks' ,require('./tasks'));
 
 
 module.exports=router;
