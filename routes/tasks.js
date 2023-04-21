@@ -6,5 +6,6 @@ const task_controller=require('../controllers/task_Controller');
 
 router.post('/task',task_controller.task);
 router.get('/delete/:id',task_controller.delete);
+router.post('/update/:id',task_controller.update);
 
 module.exports=router;
