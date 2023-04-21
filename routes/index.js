@@ -1,13 +1,10 @@
-const express=require('express')
-const app=express();
+const express = require('express')
+const app = express();
 const router = express.Router()
-const index_controller=require('../controllers/index_Controller')
 
 
-
-router.get('/',index_controller.home);
-router.use('/users',require('./user'));
-router.use('/tasks' ,require('./tasks'));
+router.use('/users', require('./user'));
+router.use('/tasks', require('./tasks'));
 
 
-module.exports=router;
+module.exports = router;
