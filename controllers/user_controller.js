@@ -59,7 +59,7 @@ module.exports.createSession = async function (req, res) {
             })
         }
 
-        return res.json(200, {
+        return res.status(200).json({
             message: 'sign in successfully',
             data: {
                 token: jwt.sign(user.toJSON(), 'qwertyuiomqsdertyhj', {expiresIn: '3600000'})
@@ -67,5 +67,6 @@ module.exports.createSession = async function (req, res) {
         });
     } catch (error) {
         console.log(error);
+        return res.status(500).json({message: 'internal server error'})
     }
 }

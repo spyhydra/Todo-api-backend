@@ -40,14 +40,17 @@ module.exports.update = async function (req, res) {
         }
     }
 
-
 }
+
 
 module.exports.complete = async function (req, res) {
-    var result = await Task.find({completed: req.query.status === "true"})
-    return res.send(result);
+
+    var status = req.query.status;
+    var result = await Task.find({complete: status});
+    return res.status(200).json(result);
 
 }
+
 //deleting a task
 
 module.exports.delete = function (req, res) {
@@ -63,13 +66,7 @@ module.exports.delete = function (req, res) {
 }
 
 
-//find all task by email
-// module.exports.allTask= async function (req,res){
-//     const email=
-//     const result= await Task.findOne({email});
-//     return res.status(200).json({result})
-//
-// }
+
 
 
 
