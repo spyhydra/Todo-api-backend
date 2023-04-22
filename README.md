@@ -72,7 +72,7 @@ http://localhost/users/register : You can Register user by POST request and pars
 
 For Creating Jwt token 
 http://localhost/users/createtoken
-![Screenshot (42)](![Screenshot (43)](https://user-images.githubusercontent.com/49969478/233797506-3aa30772-d3e9-4525-9cc1-18b9afc0b8a0.png)
+![Screenshot (40)](![Screenshot (43)](https://user-images.githubusercontent.com/49969478/233797506-3aa30772-d3e9-4525-9cc1-18b9afc0b8a0.png)
 
 
 
