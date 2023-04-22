@@ -67,7 +67,7 @@ your basic function done
 ##Youtube Tutorial Link :
 
 ## 🔗 Links
-[![portfolio](![yt](https://user-images.githubusercontent.com/49969478/233798451-a9652d93-1a86-42ab-b98a-9a2eab3f075e.png)
+[![Youtube Tutorial Link](![yt](https://user-images.githubusercontent.com/49969478/233798451-a9652d93-1a86-42ab-b98a-9a2eab3f075e.png)
 )](https://youtu.be/BLl32FvcdVM)
 
 
