@@ -1,4 +1,3 @@
-
 # Project Title
 
 Node.js RESTful API for Todo App with JWT Authentication
@@ -14,13 +13,13 @@ Setup this Api with following Instruction in Windos termainal
  4) Run  command on termainal npm install 
  5) Now You are Ready to Use this Api 
 ```
+
 ## Requirements
+
 ```bash
 1) Nodejs install on System
 2) Download Postman From internet
  ```
-
- 
 
 ## API Reference
 
@@ -32,45 +31,40 @@ Setup this Api with following Instruction in Windos termainal
   POST http://localhost/users/register
 ```
 
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
+| Parameter             | Type     | Description                    |
+|:----------------------|:---------|:-------------------------------|
 | `name,email,password` | `string` | **Required**. all are Required |
 
 #### Get item
+
 For Creating jwt autentication ('Its Must Required for CRUD Operations')
+
 ```http
 Creating jwt token
 http://localhost/users/createtoken
 ```
 
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `email,password`      | `string` | **Required**. All Parameter Required |
+| Parameter        | Type     | Description                          |
+|:-----------------|:---------|:-------------------------------------|
+| `email,password` | `string` | **Required**. All Parameter Required |
 
 your basic function done
-
-
-
-
-
 
 ## Features
 
 - Api user can perfrom basic CRUD operations
 - Api route secure By jwt autentication
-- user can filter their task according to complete or pending 
-- Optimise code written so api will be running smoothly 
-
+- user can filter their task according to complete or pending
+- Optimise code written so api will be running smoothly
 
 ## Demo
 
 ##Youtube Tutorial Link :
 
 ## 🔗 Links
+
 [![Youtube Tutorial Link](![yt](https://user-images.githubusercontent.com/49969478/233798451-a9652d93-1a86-42ab-b98a-9a2eab3f075e.png)
-)](https://youtu.be/BLl32FvcdVM)
-
-
+)](https://youtu.be/kwU8gJTF72Q)
 
 ```
 Base Url : http://localhost/
@@ -96,14 +90,13 @@ parameter: task , description , complete(true,false)
 
 ![Screenshot (44)](https://user-images.githubusercontent.com/49969478/233798026-5399314a-b976-4731-8760-536557cc06cb.png)
 
-
 ```
 Updating task : 
 
 http://localhost/tasks/update/{enter your task id}
 ```
-![Screenshot (45)](https://user-images.githubusercontent.com/49969478/233798932-8626be2d-f9c9-40ff-a79d-1691099b6b35.png)
 
+![Screenshot (45)](https://user-images.githubusercontent.com/49969478/233798932-8626be2d-f9c9-40ff-a79d-1691099b6b35.png)
 
 ```
 deleting task : 
