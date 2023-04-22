@@ -97,7 +97,12 @@ parameter: task , description , complete(true,false)
 ![Screenshot (44)](https://user-images.githubusercontent.com/49969478/233798026-5399314a-b976-4731-8760-536557cc06cb.png)
 
 
+```
+Updating task : 
 
+http://localhost/tasks/update/{enter your task id}
+```
+![Screenshot (45)](https://user-images.githubusercontent.com/49969478/233798932-8626be2d-f9c9-40ff-a79d-1691099b6b35.png)
 
 
 
