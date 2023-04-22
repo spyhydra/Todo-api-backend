@@ -105,6 +105,18 @@ http://localhost/tasks/update/{enter your task id}
 ![Screenshot (45)](https://user-images.githubusercontent.com/49969478/233798932-8626be2d-f9c9-40ff-a79d-1691099b6b35.png)
 
 
+```
+deleting task : 
+http://localhost/tasks/delete/{enter your task id}
+
+```
+
+```
+Updating status :
+http://localhost/tasks/complete?status={flase,true}any of them enter and task fillter accordingly that
+
+```
+
 
 
 
