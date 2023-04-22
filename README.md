@@ -72,13 +72,20 @@ http://localhost/users/register : You can Register user by POST request and pars
 ![Screenshot (42)](https://user-images.githubusercontent.com/49969478/233797260-c2fc66bf-f6b9-4f11-bda5-4520841c9adf.png)
 
 ```
-**For Creating Jwt token :**
+ For Creating Jwt token :
 http://localhost/users/createtoken
 
 ```
 
 ![Screenshot (43)](https://user-images.githubusercontent.com/49969478/233797506-3aa30772-d3e9-4525-9cc1-18b9afc0b8a0.png)
 
+```
+Adding Task :  http://localhost/tasks/task    
+parameter: task , description , complete(true,false)
+
+```
+
+![Screenshot (44)](https://user-images.githubusercontent.com/49969478/233798026-5399314a-b976-4731-8760-536557cc06cb.png)
 
 
 
