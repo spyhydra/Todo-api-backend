@@ -22,11 +22,12 @@ module.exports.task = async function (req, res) {
 
 //updating status
 module.exports.update = async function (req, res) {
-    const {status} = req.body;
+    const {complete} = req.body;
+
     try {
         const result = await Task.findByIdAndUpdate(req.params.id, {
             $set: {
-                status: status
+                complete: complete
             }
         }, {
             new: true
