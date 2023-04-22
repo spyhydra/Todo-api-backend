@@ -63,15 +63,16 @@ your basic function done
 
 
 ## Demo
-
+```
 Base Url : http://localhost/
 
 http://localhost/users/register : You can Register user by POST request and parsing name,email,password
+```
 
 ![Screenshot (42)](https://user-images.githubusercontent.com/49969478/233797260-c2fc66bf-f6b9-4f11-bda5-4520841c9adf.png)
 
 ```
-**For Creating Jwt token : **
+**For Creating Jwt token :**
 http://localhost/users/createtoken
 
 ```
