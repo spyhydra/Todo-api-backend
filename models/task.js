@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 
-var enu = {
-    values: ['pending', 'completed', 'none']
-    , message: 'Status is required.'
-}
+// var enu = {
+//     values: ['pending', 'completed']
+//     , message: 'Status is required.'
+// }
 
 
 const taskSchema = new mongoose.Schema({
@@ -17,14 +17,18 @@ const taskSchema = new mongoose.Schema({
         type: String,
         require: true,
     },
+    complete: {
+        type: Boolean,
+        default: "false"
+    }
 
-    status: {
-        type: String,
-        enum: enu,
-        default: 'pending',
-        trim: true,
-        require: true
-    },
+    // status: {
+    //     type: String,
+    //     enum: enu,
+    //     default: 'pending',
+    //     trim: true,
+    //     require: true
+    // },
 
 }, {
     timestamps: true

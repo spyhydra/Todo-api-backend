@@ -2,11 +2,11 @@ const Task = require("../models/task");
 
 module.exports.task = async function (req, res) {
 
-    const {task, description, status} = req.body;
+    const {task, description, complete} = req.body;
     try {
 
         const newTask = new Task({
-            task, description, status
+            task, description, complete
         });
         await newTask.save();
         return res.status(200).json(newTask);
@@ -43,6 +43,11 @@ module.exports.update = async function (req, res) {
 
 }
 
+module.exports.complete = async function (req, res) {
+    var result = await Task.find({completed: req.query.status === "true"})
+    return res.send(result);
+
+}
 //deleting a task
 
 module.exports.delete = function (req, res) {
