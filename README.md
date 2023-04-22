@@ -113,7 +113,7 @@ http://localhost/tasks/delete/{enter your task id}
 
 ```
 Updating status :
-http://localhost/tasks/complete?status={flase,true}any of them enter and task fillter accordingly that
+http://localhost/tasks/complete?status={flase,true}    any of them enter and task fillter accordingly that
 
 ```
 
